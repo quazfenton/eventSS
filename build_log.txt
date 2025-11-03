@@ -1,0 +1,62 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+   ▲ Next.js 15.3.3
+
+   Creating an optimized production build ...
+
+
+Retrying 1/3...
+
+
+Retrying 1/3...
+
+
+Retrying 1/3...
+Failed to compile.
+
+app/layout.tsx
+An error occurred in `next/font`.
+
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/config/index.js
+- /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack-config.js
+- /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack-build/impl.js
+- /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/jest-worker/processChild.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1212:15)
+    at /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/server/require-hook.js:55:36
+    at Function.resolve (node:internal/modules/helpers:193:19)
+    at loadPlugin (/home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:53:32)
+    at /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:185:56
+    at Array.map (<anonymous>)
+    at getPostCssPlugins (/home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js:185:47)
+    at async /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/config/blocks/css/index.js:125:36
+    at async /home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js:94:33
+    at async Span.traceAsyncFn (/home/admin/.local/share/pnpm/global/5/.pnpm/next@15.3.3_react-dom@19.1.0_react@18.3.1__react@18.3.1/node_modules/next/dist/trace/trace.js:157:20)
+
+./app/layout.tsx
+Module not found: Can't resolve '@/app/globals.css'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/layout.tsx
+Module not found: Can't resolve '@/components/theme-provider'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/page.tsx
+Module not found: Can't resolve '@/components/event-card'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/page.tsx
+Module not found: Can't resolve '@/components/events-filter'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors
